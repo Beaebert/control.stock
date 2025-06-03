@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Control_stock_galletas/1.0.0": {
+        "runtime": {
+          "Control_stock_galletas.dll": {}
+        },
+        "resources": {
+          "es-419/Control_stock_galletas.resources.dll": {
+            "locale": "es-419"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Control_stock_galletas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
