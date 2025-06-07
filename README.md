@@ -4,7 +4,7 @@
 El objetivo de la aplicación es controlar el stock de galletas personalizadas de una pequeña pastelería, no solo visualizar la cantidad que se encuentra preparada de galletas,
 sino también la cantidad de ingredientes que se encuentran almacenados.
 Esta es la idea tomada para formar la Base de Datos, por simplicidad se ignoró la tabla de Productos, y solo se uso la tabla Galleta y la tabla Ingrediente
-![ERD](ERD%20(pata%20de%20gallo)%20de%20Base%20de%20Galletas.JPG)
+![ERD](ERD (pata de gallo) de Base de Galletas.JPG)
 
 La aplicación inicia con una ventana principal dónde se puede elegir con qué se quiere trabajar, si con la información de las galletas o de los ingredientes
 ![Menu Principal](PantallaMenu.JPG)
