@@ -138,34 +138,34 @@ Menú Principal</value>
   <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="BotonMenuGalle.Font" type="System.Drawing.Font, System.Drawing">
     <value>Cascadia Code, 12pt</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="BotonMenuGalle.Location" type="System.Drawing.Point, System.Drawing">
     <value>351, 230</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BotonMenuGalle.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 45</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="BotonMenuGalle.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="BotonMenuGalle.Text" xml:space="preserve">
     <value>Lista de Galletas</value>
   </data>
-  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="BotonMenuIngredi.Font" type="System.Drawing.Font, System.Drawing">
     <value>Cascadia Code, 12pt</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="BotonMenuIngredi.Location" type="System.Drawing.Point, System.Drawing">
     <value>351, 337</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BotonMenuIngredi.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 45</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="BotonMenuIngredi.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="BotonMenuIngredi.Text" xml:space="preserve">
     <value>Lista de Ingredientes</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
@@ -3373,6 +3373,6 @@ Menú Principal</value>
     <value>No</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>StockGalletas</value>
+    <value>MenuGalletas</value>
   </data>
 </root>

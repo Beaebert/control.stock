@@ -5,9 +5,6 @@ C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\bin\Debug
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\bin\Debug\net8.0-windows\Control_stock_galletas.pdb
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\bin\Debug\net8.0-windows\es-419\Control_stock_galletas.resources.dll
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.Properties.Resources.resources
-C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.StockGalletas.resources
-C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.Ventanas.Form2.resources
-C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.StockGalletas.es-419.resources
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.csproj.GenerateResource.cache
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.AssemblyInfoInputs.cache
@@ -19,3 +16,9 @@ C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.pdb
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.genruntimeconfig.cache
 C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\ref\Control_stock_galletas.dll
+C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.MenuGalletas.resources
+C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.Ventanas.StockGalletas.resources
+C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.MenuGalletas.es-419.resources
+C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.sourcelink.json
+C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.Ventanas.StockIngredientes.resources
+C:\Users\Be\source\repos\Control_stock_galletas\Control_stock_galletas\obj\Debug\net8.0-windows\Control_stock_galletas.csproj.AssemblyReference.cache

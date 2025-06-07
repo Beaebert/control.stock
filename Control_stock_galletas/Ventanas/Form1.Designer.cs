@@ -1,6 +1,6 @@
 ﻿namespace Control_stock_galletas
 {
-    partial class StockGalletas
+    partial class MenuGalletas
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StockGalletas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuGalletas));
             label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
+            BotonMenuGalle = new Button();
+            BotonMenuIngredi = new Button();
             SuspendLayout();
             // 
             // label1
@@ -41,28 +41,31 @@
             label1.Name = "label1";
             label1.UseWaitCursor = true;
             // 
-            // button1
+            // BotonMenuGalle
             // 
-            resources.ApplyResources(button1, "button1");
-            button1.Name = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            resources.ApplyResources(BotonMenuGalle, "BotonMenuGalle");
+            BotonMenuGalle.Name = "BotonMenuGalle";
+            BotonMenuGalle.UseVisualStyleBackColor = true;
+            BotonMenuGalle.UseWaitCursor = true;
+            BotonMenuGalle.Click += button1_Click;
             // 
-            // button2
+            // BotonMenuIngredi
             // 
-            resources.ApplyResources(button2, "button2");
-            button2.Name = "button2";
-            button2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(BotonMenuIngredi, "BotonMenuIngredi");
+            BotonMenuIngredi.Name = "BotonMenuIngredi";
+            BotonMenuIngredi.UseVisualStyleBackColor = true;
+            BotonMenuIngredi.UseWaitCursor = true;
+            BotonMenuIngredi.Click += button2_Click;
             // 
-            // StockGalletas
+            // MenuGalletas
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSalmon;
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(BotonMenuIngredi);
+            Controls.Add(BotonMenuGalle);
             Controls.Add(label1);
-            Name = "StockGalletas";
+            Name = "MenuGalletas";
             UseWaitCursor = true;
             ResumeLayout(false);
             PerformLayout();
@@ -71,7 +74,7 @@
         #endregion
 
         private Label label1;
-        private Button button1;
-        private Button button2;
+        private Button BotonMenuGalle;
+        private Button BotonMenuIngredi;
     }
 }
