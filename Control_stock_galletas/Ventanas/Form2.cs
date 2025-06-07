@@ -9,7 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TuProyecto.InterfacesDAO;
+using Control_stock_galletas.Implementacion;
+using Control_stock_galletas.Ventanas;
 
 namespace Control_stock_galletas.Ventanas
 {
@@ -19,21 +20,18 @@ namespace Control_stock_galletas.Ventanas
         private Galleta _galletaSeleccionada;
         private MenuGalletas _menuPrincipalForm;
 
-        public StockGalletas(MenuGalletas menuPrincipal)
+        // Permite inyección de dependencias para facilitar pruebas y flexibilidad
+        public StockGalletas(MenuGalletas menuPrincipal, IGalletaDAO galletaDAO = null)
         {
             InitializeComponent();
-            _galletaDAO = new GalletaSqlDAO(); // Asume que GalletaSqlDAO lee la conexión de App.config
+            _galletaDAO = galletaDAO ?? new SQLDAOGalleta();
             _menuPrincipalForm = menuPrincipal;
 
-            ConfigurarControlesAdicionalesGalleta();
+            ControlesAdicionalesGalleta(); 
             LimpiarCamposEdicionGalleta();
         }
 
-        public StockGalletas()
-        {
-            InitializeComponent();
-            _galletaDAO = new GalletaSqlDAO();
-        }
+        public StockGalletas() : this(null, null) { }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -53,7 +51,7 @@ namespace Control_stock_galletas.Ventanas
             }
         }
 
-        private void ConfigurarControlesAdicionalesGalleta()
+        private void ControlesAdicionalesGalleta()
         {
             dgvGalletas.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvGalletas.MultiSelect = false;

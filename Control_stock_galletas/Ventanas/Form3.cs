@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using Control_stock_galletas.Ventanas; //Para poder acceder al formulario del menú principal
 using Control_stock_galletas.Interfaces;
 using Control_stock_galletas.Implementacion;
+using Control_stock_galletas.Entidades;
 
 namespace Control_stock_galletas.Ventanas
 {
@@ -20,10 +21,13 @@ namespace Control_stock_galletas.Ventanas
 
         private readonly IIngredienteDAO _ingredienteDAO = new SQLDAOIngrediente();
 
+        private TextBox txtValorBusquedaIngre; // Declaración del control faltante
+
         public StockIngredientes(MenuGalletas menuGalletas)
         {
             InitializeComponent();
             this.menuGalletas = menuGalletas; // Inicializar la referencia al formulario del menú principal
+            txtValorBusquedaIngre = new TextBox(); // Inicialización del control
             CargarTodosLosIngredientes();
             this.Load += new System.EventHandler(this.StockIngredientes_Load);
         }
@@ -77,7 +81,7 @@ namespace Control_stock_galletas.Ventanas
                 switch (criterio)
                 {
                     case "Nombre":
-                        resultadoBusqueda = IngredienteDAO.ObtenerPorNombre(valor);
+                        resultadoBusqueda = _ingredienteDAO.ObtenerPorNombre(valor);
                         break;
                     case "Código Ingrediente": // Busca por PK de la tabla Ingrediente (Cod_Ingre)
                         if (int.TryParse(valor, out int codIngre))
@@ -128,6 +132,28 @@ namespace Control_stock_galletas.Ventanas
             CargarVistaConsolidadaIngredientes();
             LimpiarCamposBusqueda();
             LimpiarCamposEdicionStock();
+        }
+
+        private void LimpiarCamposEdicionStock()
+        {
+            //txtCantidadIngrediente.Value = 0;
+            // txtIngredienteSeleccionado.Clear();
+        }
+
+        private void LimpiarCamposBusqueda()
+        {
+            // txtValorBusquedaIngre.Clear();
+            // cmbCriterioBusquedaIngre.SelectedIndex = -1;
+        }
+
+        private void AjustarColumnasDgvRaw()
+        {
+            // Por ejemplo: dgvIngredientes.AutoResizeColumns();
+        }
+
+        private void CargarVistaConsolidadaIngredientes()
+        {
+            CargarTodosLosIngredientes();
         }
     }
 }

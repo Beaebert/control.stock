@@ -1,12 +1,11 @@
 ﻿using Control_stock_galletas.Entidades;
 using System;
 using System.Collections.Generic;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TuProyecto.InterfacesDAO
+namespace Control_stock_galletas.Interfaces
 {
     public interface IGalletaDAO
     {

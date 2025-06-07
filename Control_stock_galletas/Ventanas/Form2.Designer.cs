@@ -1,16 +1,23 @@
 ﻿namespace Control_stock_galletas.Ventanas
 {
-    partial class StockGalletas
+    partial class StockGalletas // El modificador 'partial' debe estar fuera de las llaves
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        // Declaración de controles
+        private System.Windows.Forms.DataGridView dgvGalletas;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnBuscarGalleta;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BotonGalleVolver;
+        private System.Windows.Forms.ComboBox cmbCriterioBusquedaGalleta;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown numCantidadGalle;
+
+        /// Limpiar los recursos que se estén usando.
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,128 +27,43 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Código generado por el Diseñador de Windows Forms
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StockGalletas));
-            dgvGalletas = new DataGridView();
-            label1 = new Label();
-            btnBuscarGalleta = new Button();
-            button1 = new Button();
-            BotonGalleVolver = new Button();
-            cmbCriterioBusquedaGalleta = new ComboBox();
-            label2 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dgvGalletas).BeginInit();
-            SuspendLayout();
-            // 
-            // dgvGalletas
-            // 
-            dgvGalletas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvGalletas.Location = new Point(49, 72);
-            dgvGalletas.Name = "dgvGalletas";
-            dgvGalletas.Size = new Size(688, 245);
-            dgvGalletas.TabIndex = 1;
-            dgvGalletas.CellContentClick += dataGridView1_CellContentClick;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Sitka Banner", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(49, 27);
-            label1.Name = "label1";
-            label1.Size = new Size(129, 28);
-            label1.TabIndex = 2;
-            label1.Text = "Lista de Galletas";
-            // 
-            // btnBuscarGalleta
-            // 
-            btnBuscarGalleta.Font = new Font("Cascadia Code", 12F);
-            btnBuscarGalleta.ImeMode = ImeMode.NoControl;
-            btnBuscarGalleta.Location = new Point(49, 391);
-            btnBuscarGalleta.Name = "btnBuscarGalleta";
-            btnBuscarGalleta.Size = new Size(223, 45);
-            btnBuscarGalleta.TabIndex = 3;
-            btnBuscarGalleta.Text = "Buscar";
-            btnBuscarGalleta.UseVisualStyleBackColor = true;
-            btnBuscarGalleta.UseWaitCursor = true;
-            // 
-            // button1
-            // 
-            button1.Font = new Font("Cascadia Code", 12F);
-            button1.ImeMode = ImeMode.NoControl;
-            button1.Location = new Point(366, 391);
-            button1.Name = "button1";
-            button1.Size = new Size(223, 45);
-            button1.TabIndex = 4;
-            button1.Text = "Modificar";
-            button1.UseVisualStyleBackColor = true;
-            button1.UseWaitCursor = true;
-            // 
-            // BotonGalleVolver
-            // 
-            BotonGalleVolver.Font = new Font("Cascadia Code", 12F);
-            BotonGalleVolver.ImeMode = ImeMode.NoControl;
-            BotonGalleVolver.Location = new Point(697, 391);
-            BotonGalleVolver.Name = "BotonGalleVolver";
-            BotonGalleVolver.Size = new Size(223, 45);
-            BotonGalleVolver.TabIndex = 5;
-            BotonGalleVolver.Text = "Volver";
-            BotonGalleVolver.UseVisualStyleBackColor = true;
-            BotonGalleVolver.UseWaitCursor = true;
-            BotonGalleVolver.Click += BotonGalleVolver_Click;
-            // 
-            // cmbCriterioBusquedaGalleta
-            // 
-            cmbCriterioBusquedaGalleta.FormattingEnabled = true;
-            cmbCriterioBusquedaGalleta.Items.AddRange(new object[] { "Nombre", "Personaje", "Gusto", "Cod_Ingre", "Cod_Galle", "Todos" });
-            cmbCriterioBusquedaGalleta.Location = new Point(49, 362);
-            cmbCriterioBusquedaGalleta.Name = "cmbCriterioBusquedaGalleta";
-            cmbCriterioBusquedaGalleta.Size = new Size(223, 23);
-            cmbCriterioBusquedaGalleta.TabIndex = 8;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Sitka Banner", 14.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(49, 320);
-            label2.Name = "label2";
-            label2.Size = new Size(184, 28);
-            label2.TabIndex = 9;
-            label2.Text = "Eligir cómo buscar, por:";
-            // 
-            // StockGalletas
-            // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightSalmon;
-            ClientSize = new Size(954, 462);
-            Controls.Add(label2);
-            Controls.Add(cmbCriterioBusquedaGalleta);
-            Controls.Add(BotonGalleVolver);
-            Controls.Add(button1);
-            Controls.Add(btnBuscarGalleta);
-            Controls.Add(label1);
-            Controls.Add(dgvGalletas);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "StockGalletas";
-            Text = "StockGalletas";
-            ((System.ComponentModel.ISupportInitialize)dgvGalletas).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.dgvGalletas = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnBuscarGalleta = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.BotonGalleVolver = new System.Windows.Forms.Button();
+            this.cmbCriterioBusquedaGalleta = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.numCantidadGalle = new System.Windows.Forms.NumericUpDown();
+
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGalletas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numCantidadGalle)).BeginInit();
+            this.SuspendLayout();
+
+            // numCantidadGalle
+            this.numCantidadGalle.Location = new System.Drawing.Point(150, 100);
+            this.numCantidadGalle.Name = "numCantidadGalle";
+            this.numCantidadGalle.Size = new System.Drawing.Size(120, 20);
+            this.numCantidadGalle.TabIndex = 1;
+            this.numCantidadGalle.Minimum = 0;
+            this.numCantidadGalle.Maximum = 100000;
+
+            // Agregar controles al formulario
+            this.Controls.Add(this.numCantidadGalle);
+
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGalletas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numCantidadGalle)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion
-        private DataGridView dgvGalletas;
-        private Label label1;
-        private Button btnBuscarGalleta;
-        private Button button1;
-        private Button BotonGalleVolver;
-        private ComboBox cmbCriterioBusquedaGalleta;
-        private Label label2;
     }
 }

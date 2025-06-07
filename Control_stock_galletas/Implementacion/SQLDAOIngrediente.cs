@@ -20,7 +20,7 @@ namespace Control_stock_galletas.Implementacion
         public List<Ingrediente> ObtenerTodos()
         {
             var lista = new List<Ingrediente>();
-            string consulta = "SELECT Cod_Ingre, Nombre, Stock, Unidad FROM Ingrediente";
+            string consulta = "SELECT Cod_Ingre, Nombre, Stock FROM Ingrediente";
             using (var con = new SqlConnection(_cadenaConexion))
             using (var cmd = new SqlCommand(consulta, con))
             {
@@ -39,7 +39,7 @@ namespace Control_stock_galletas.Implementacion
         public Ingrediente ObtenerPorId(int codIngre)
         {
             Ingrediente ingrediente = null;
-            string consulta = "SELECT Cod_Ingre, Nombre, Stock, Unidad FROM Ingrediente WHERE Cod_Ingre = @CodIngre";
+            string consulta = "SELECT Cod_Ingre, Nombre, Stock FROM Ingrediente WHERE Cod_Ingre = @CodIngre";
             using (var con = new SqlConnection(_cadenaConexion))
             using (var cmd = new SqlCommand(consulta, con))
             {
@@ -59,7 +59,7 @@ namespace Control_stock_galletas.Implementacion
         public List<Ingrediente> ObtenerPorNombre(string nombre)
         {
             var lista = new List<Ingrediente>();
-            string consulta = "SELECT Cod_Ingre, Nombre, Stock, Unidad FROM Ingrediente WHERE Nombre LIKE @Nombre";
+            string consulta = "SELECT Cod_Ingre, Nombre, Stock FROM Ingrediente WHERE Nombre LIKE @Nombre";
             using (var con = new SqlConnection(_cadenaConexion))
             using (var cmd = new SqlCommand(consulta, con))
             {
@@ -80,7 +80,7 @@ namespace Control_stock_galletas.Implementacion
         {
             var lista = new List<Ingrediente>();
             string consulta = @"
-                SELECT i.Cod_Ingre, i.Nombre, i.Stock, i.Unidad
+                SELECT i.Cod_Ingre, i.Nombre, i.Stock
                 FROM Ingrediente i
                 INNER JOIN Galleta g ON i.Cod_Ingre = g.Cod_Ingre OR i.Cod_Ingre = g.Segundo_Ingrediente
                 WHERE g.Cod_Galle = @CodGalle";
@@ -133,8 +133,7 @@ namespace Control_stock_galletas.Implementacion
             {
                 Cod_Ingre = reader["Cod_Ingre"].ToString(),
                 Nombre = reader["Nombre"].ToString(),
-                Cantidad = Convert.ToInt32(reader["Stock"]),
-                Cod_Galle = null // O asigna el valor adecuado si corresponde
+                Cantidad = Convert.ToInt32(reader["Stock"])
             };
         }
     }

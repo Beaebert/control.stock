@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Control_stock_galletas.Entidades;
-using Control_stock_galletas.Interfaces;
 using System.Data;
 using System.Data.SqlClient;
+using Control_stock_galletas.Interfaces;
 
 
 namespace Control_stock_galletas.Implementacion
@@ -29,8 +29,8 @@ namespace Control_stock_galletas.Implementacion
                 Personaje = reader["Personaje"].ToString(),
                 Gusto = reader["Gusto"].ToString(),
                 Cantidad = Convert.ToInt32(reader["Cantidad"]),
-                Cod_Ingre_Principal = reader["Cod_Ingre"] != DBNull.Value ? Convert.ToInt32(reader["Cod_Ingre"]) : (int?)null, // Campo renombrado en BD vs Entidad
-                Segundo_Ingrediente = reader["Segundo_Ingrediente"] != DBNull.Value ? Convert.ToInt32(reader["Segundo_Ingrediente"]) : (int?)null
+                Cod_Ingre_Principal = reader["Cod_Ingre"] != DBNull.Value ? Convert.ToInt32(reader["Cod_Ingre"]) : 0, // Se asigna 0 como valor predeterminado
+                Segundo_Ingrediente = reader["Segundo_Ingrediente"] != DBNull.Value ? Convert.ToInt32(reader["Segundo_Ingrediente"]) : 0 // Se asigna 0 como valor predeterminado
             };
             return galleta;
         }
