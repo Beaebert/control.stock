@@ -9,7 +9,7 @@ La aplicación inicia con una ventana principal dónde se puede elegir con qué 
 ![Menu Principal](/control.stock/PantallaMenu.jpg) 
 
 La pantalla de información de galletas tiene su sector para visualizar la información de la Base de Datos. Tiene un menú desplegable para elegir según qué criterio se quiere buscar (si mostrar según el gusto o el personaje de diseño)
-![Ventana Informacion Galletas](/control.stock/PantallaGalletas.jpg) 
+![Ventana Informacion Galletas](/control.stock/PantallaGalletas.JPG) 
 
 La pantalla de información de Ingredientes mantiene mismas caracteristicas de apariencia de las anteriores, también tiene los espacios para visualizar y buscar por una categoria como la ventana de Galletas, pero en vez de tomar la información de la tabla Galleta, es de la tabla Ingrediente, de la Base de Datos.
 ![Ventana Informacion Ingredientes](/control.stock/PantallaIngredientes.jpg) 
