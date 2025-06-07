@@ -1,6 +1,7 @@
 # Pequeña aplicación de Windows con Winforms para controlar stock (Aún en proceso)
 
-*Este proyecto se realizo para el Curso Introducción a la Programación con C# de la Universidad Abierta Interamericana*
+*Este proyecto se realizo para el Curso Introducción a la Programación con C# de la Universidad Abierta Interamericana* 
+
 El objetivo de la aplicación es controlar el stock de galletas personalizadas de una pequeña pastelería, no solo visualizar la cantidad que se encuentra preparada de galletas,
 sino también la cantidad de ingredientes que se encuentran almacenados.
 Esta es la idea tomada para formar la Base de Datos, por simplicidad se ignoró la tabla de Productos, y solo se uso la tabla Galleta y la tabla Ingrediente
