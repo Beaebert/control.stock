@@ -1,10 +1,10 @@
 ﻿namespace Control_stock_galletas.Ventanas
 {
-    partial class StockGalletas // El modificador 'partial' debe estar fuera de las llaves
+    partial class StockGalletas
     {
         private System.ComponentModel.IContainer components = null;
 
-        // Declaración de controles
+        // Declaración de controles  
         private System.Windows.Forms.DataGridView dgvGalletas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnBuscarGalleta;
@@ -17,7 +17,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown numCantidadGalle;
 
-        /// Limpiar los recursos que se estén usando.
+        /// Limpiar los recursos que se estén usando.  
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -27,9 +27,10 @@
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+        #region Código generado por el Diseñador de Windows Forms  
 
-        private void InitializeComponent()
+        // Renamed InitializeComponent to InitializeComponentDesigner to avoid conflict  
+        private void InitializeComponentDesigner()
         {
             this.dgvGalletas = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,7 +48,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numCantidadGalle)).BeginInit();
             this.SuspendLayout();
 
-            // numCantidadGalle
+            // numCantidadGalle  
             this.numCantidadGalle.Location = new System.Drawing.Point(150, 100);
             this.numCantidadGalle.Name = "numCantidadGalle";
             this.numCantidadGalle.Size = new System.Drawing.Size(120, 20);
@@ -55,7 +56,7 @@
             this.numCantidadGalle.Minimum = 0;
             this.numCantidadGalle.Maximum = 100000;
 
-            // Agregar controles al formulario
+            // Agregar controles al formulario  
             this.Controls.Add(this.numCantidadGalle);
 
             ((System.ComponentModel.ISupportInitialize)(this.dgvGalletas)).EndInit();

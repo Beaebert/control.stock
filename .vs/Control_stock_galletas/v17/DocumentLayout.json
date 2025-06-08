@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\ventanas\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\ventanas\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\implementacion\\sqldaogalleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\implementacion\\sqldaogalleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\ventanas\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\ventanas\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\implementacion\\sqldaogalleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\implementacion\\sqldaogalleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\ventanas\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\ventanas\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\entidades\\galleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\entidades\\galleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\implementacion\\sqldaoingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,7 +39,7 @@
       "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\ventanas\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\ventanas\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\control_stock_galletas\\ventanas\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\ventanas\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\interfaces\\iingredientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\interfaces\\iingredientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\entidades\\galleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|solutionrelative:control_stock_galletas\\entidades\\galleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB4AA187-E038-4DCC-9C49-A921BAB792C2}|Control_stock_galletas\\Control_stock_galletas.csproj|c:\\users\\be\\source\\repos\\control_stock_galletas\\control_stock_galletas\\entidades\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -101,33 +101,12 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form2.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form2.Designer.cs",
-              "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form2.Designer.cs",
-              "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form2.Designer.cs",
-              "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form2.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T16:58:32.429Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Form1.cs [Dise\u00F1o - espa\u00F1ol (Latinoam\u00E9rica)]",
-              "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form1.cs",
-              "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form1.cs",
-              "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form1.cs [Dise\u00F1o - espa\u00F1ol (Latinoam\u00E9rica)]",
-              "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form1.cs [Dise\u00F1o - espa\u00F1ol (Latinoam\u00E9rica)]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T11:41:02.629Z",
-              "EditorCaption": " [Dise\u00F1o - espa\u00F1ol (Latinoam\u00E9rica)]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form2.cs",
               "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form2.cs",
@@ -138,12 +117,8 @@
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form3.cs",
               "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form3.cs",
@@ -156,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SQLDAOIngrediente.cs",
               "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Implementacion\\SQLDAOIngrediente.cs",
               "RelativeDocumentMoniker": "Control_stock_galletas\\Implementacion\\SQLDAOIngrediente.cs",
@@ -164,25 +139,37 @@
               "RelativeToolTip": "Control_stock_galletas\\Implementacion\\SQLDAOIngrediente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T20:48:11.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T20:48:11.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SQLDAOGalleta.cs",
               "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Implementacion\\SQLDAOGalleta.cs",
               "RelativeDocumentMoniker": "Control_stock_galletas\\Implementacion\\SQLDAOGalleta.cs",
               "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Implementacion\\SQLDAOGalleta.cs",
               "RelativeToolTip": "Control_stock_galletas\\Implementacion\\SQLDAOGalleta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T18:42:13.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form2.Designer.cs",
+              "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form2.Designer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:58:32.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IGalletaDAO.cs",
               "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Interfaces\\IGalletaDAO.cs",
               "RelativeDocumentMoniker": "Control_stock_galletas\\Interfaces\\IGalletaDAO.cs",
@@ -190,8 +177,7 @@
               "RelativeToolTip": "Control_stock_galletas\\Interfaces\\IGalletaDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T20:57:35.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T20:57:35.536Z"
             },
             {
               "$type": "Document",
@@ -201,26 +187,38 @@
               "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form2.cs",
               "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form2.cs",
               "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form2.cs",
-              "ViewState": "AgIAADoAAAAAKDMzMzMfwEcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T22:49:47.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form3.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form3.cs",
-              "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form3.cs",
-              "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form3.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form3.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "Galleta.cs",
+              "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Entidades\\Galleta.cs",
+              "RelativeDocumentMoniker": "Control_stock_galletas\\Entidades\\Galleta.cs",
+              "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Entidades\\Galleta.cs",
+              "RelativeToolTip": "Control_stock_galletas\\Entidades\\Galleta.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T03:06:58.668Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-04T21:20:28.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Dise\u00F1o - espa\u00F1ol (Latinoam\u00E9rica)]",
+              "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form1.cs",
+              "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form1.cs",
+              "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form1.cs [Dise\u00F1o - espa\u00F1ol (Latinoam\u00E9rica)]",
+              "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form1.cs [Dise\u00F1o - espa\u00F1ol (Latinoam\u00E9rica)]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:41:02.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Form3.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form3.Designer.cs",
               "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form3.Designer.cs",
@@ -228,12 +226,11 @@
               "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form3.Designer.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAxwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T02:54:47.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T02:54:47.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IIngredienteDAO.cs",
               "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Interfaces\\IIngredienteDAO.cs",
               "RelativeDocumentMoniker": "Control_stock_galletas\\Interfaces\\IIngredienteDAO.cs",
@@ -245,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ImpleDAOIngrediente.cs",
               "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Implementacion\\ImpleDAOIngrediente.cs",
               "RelativeDocumentMoniker": "Control_stock_galletas\\Implementacion\\ImpleDAOIngrediente.cs",
@@ -254,18 +251,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T18:14:51.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Galleta.cs",
-              "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Entidades\\Galleta.cs",
-              "RelativeDocumentMoniker": "Control_stock_galletas\\Entidades\\Galleta.cs",
-              "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Entidades\\Galleta.cs",
-              "RelativeToolTip": "Control_stock_galletas\\Entidades\\Galleta.cs",
-              "ViewState": "AgIAAAYAAAAAAQAAAAAhwBQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T21:20:28.242Z"
             },
             {
               "$type": "Document",
@@ -325,8 +310,18 @@
               "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form1.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T16:37:29.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T16:37:29.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form3.cs",
+              "RelativeDocumentMoniker": "Control_stock_galletas\\Ventanas\\Form3.cs",
+              "ToolTip": "C:\\Users\\Be\\source\\repos\\Control_stock_galletas\\Control_stock_galletas\\Ventanas\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Control_stock_galletas\\Ventanas\\Form3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T03:06:58.668Z"
             }
           ]
         }

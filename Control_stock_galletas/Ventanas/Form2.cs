@@ -17,8 +17,19 @@ namespace Control_stock_galletas.Ventanas
     public partial class StockGalletas : Form
     {
         private readonly IGalletaDAO _galletaDAO;
-        private Galleta _galletaSeleccionada;
+        private Galleta? _galletaSeleccionada;
         private MenuGalletas _menuPrincipalForm;
+        //Declaracion de controles
+        private System.Windows.Forms.TextBox txtValorBusquedaGalleta;
+        private System.Windows.Forms.TextBox txtCodIngrePrincipalGalle;
+        private System.Windows.Forms.TextBox txtCodGalle; 
+        private System.Windows.Forms.TextBox txtNombreGalle; 
+        private System.Windows.Forms.TextBox txtPersonajeGalle; 
+        private System.Windows.Forms.TextBox txtGustoGalle; 
+        private System.Windows.Forms.TextBox txtCodProdGalle; 
+        private System.Windows.Forms.TextBox txtCodIngreSecundarioGalle; 
+        private System.Windows.Forms.Button btnModificarGalleta; 
+        private System.Windows.Forms.Button btnEliminarGalleta; // Declaración del control
 
         // Permite inyección de dependencias para facilitar pruebas y flexibilidad
         public StockGalletas(MenuGalletas menuPrincipal, IGalletaDAO galletaDAO = null)
@@ -30,7 +41,106 @@ namespace Control_stock_galletas.Ventanas
             ControlesAdicionalesGalleta(); 
             LimpiarCamposEdicionGalleta();
         }
+        private void InitializeComponent()
+        {
+            if (this.DesignMode)
+            {
+                return;
+            }
 
+            this.txtValorBusquedaGalleta = new System.Windows.Forms.TextBox();
+            this.txtCodIngrePrincipalGalle = new System.Windows.Forms.TextBox();
+            this.txtCodGalle = new System.Windows.Forms.TextBox();
+            this.txtNombreGalle = new System.Windows.Forms.TextBox();
+            this.txtPersonajeGalle = new System.Windows.Forms.TextBox();
+            this.txtGustoGalle = new System.Windows.Forms.TextBox();
+            this.txtCodProdGalle = new System.Windows.Forms.TextBox();
+            this.txtCodIngreSecundarioGalle = new System.Windows.Forms.TextBox();
+            this.btnModificarGalleta = new System.Windows.Forms.Button();
+            this.btnEliminarGalleta = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // txtValorBusquedaGalleta
+            // 
+            this.txtValorBusquedaGalleta.Location = new System.Drawing.Point(150, 50); // Ajusta la posición según tu diseño
+            this.txtValorBusquedaGalleta.Name = "txtValorBusquedaGalleta";
+            this.txtValorBusquedaGalleta.Size = new System.Drawing.Size(200, 20); // Ajusta el tamaño según tu diseño
+            this.txtValorBusquedaGalleta.TabIndex = 1;
+            this.Controls.Add(this.txtValorBusquedaGalleta);
+            // 
+            // txtCodIngrePrincipalGalle
+            // 
+            this.txtCodIngrePrincipalGalle.Location = new System.Drawing.Point(150, 100); // Ajusta la posición según tu diseño
+            this.txtCodIngrePrincipalGalle.Name = "txtCodIngrePrincipalGalle";
+            this.txtCodIngrePrincipalGalle.Size = new System.Drawing.Size(200, 20); // Ajusta el tamaño según tu diseño
+            this.txtCodIngrePrincipalGalle.TabIndex = 2;
+            this.Controls.Add(this.txtCodIngrePrincipalGalle);
+            // 
+            // txtCodGalle
+            // 
+            this.txtCodGalle.Location = new System.Drawing.Point(150, 150); // Ajusta la posición según tu diseño
+            this.txtCodGalle.Name = "txtCodGalle";
+            this.txtCodGalle.Size = new System.Drawing.Size(200, 20); // Ajusta el tamaño según tu diseño
+            this.Controls.Add(this.txtCodGalle); // Agrega el control al formulario
+            // 
+            // txtNombreGalle
+            // 
+            this.txtNombreGalle.Location = new System.Drawing.Point(150, 200); // Ajusta la posición según tu diseño
+            this.txtNombreGalle.Name = "txtNombreGalle";
+            this.txtNombreGalle.Size = new System.Drawing.Size(200, 20); // Ajusta el tamaño según tu diseño
+            this.Controls.Add(this.txtNombreGalle); // Agrega el control al formulario
+            // 
+            // txtPersonajeGalle
+            // 
+            this.txtPersonajeGalle.Location = new System.Drawing.Point(150, 250); // Ajusta la posición según tu diseño
+            this.txtPersonajeGalle.Name = "txtPersonajeGalle";
+            this.txtPersonajeGalle.Size = new System.Drawing.Size(200, 20); // Ajusta el tamaño según tu diseño
+            this.Controls.Add(this.txtPersonajeGalle); // Agrega el control al formulario
+            // 
+            // txtGustoGalle
+            // 
+            this.txtGustoGalle.Location = new System.Drawing.Point(150, 300); // Ajusta la posición según tu diseño
+            this.txtGustoGalle.Name = "txtGustoGalle";
+            this.txtGustoGalle.Size = new System.Drawing.Size(200, 20); // Ajusta el tamaño según tu diseño
+            this.Controls.Add(this.txtGustoGalle); // Agrega el control al formulario
+            // 
+            // txtCodProdGalle
+            // 
+            this.txtCodProdGalle.Location = new System.Drawing.Point(150, 350); // Ajusta la posición según tu diseño
+            this.txtCodProdGalle.Name = "txtCodProdGalle";
+            this.txtCodProdGalle.Size = new System.Drawing.Size(200, 20); // Ajusta el tamaño según tu diseño
+            this.Controls.Add(this.txtCodProdGalle); // Agrega el control al formulario
+            // 
+            // txtCodIngreSecundarioGalle
+            // 
+            this.txtCodIngreSecundarioGalle.Location = new System.Drawing.Point(150, 400); // Ajusta la posición según tu diseño
+            this.txtCodIngreSecundarioGalle.Name = "txtCodIngreSecundarioGalle";
+            this.txtCodIngreSecundarioGalle.Size = new System.Drawing.Size(200, 20); // Ajusta el tamaño según tu diseño
+            this.Controls.Add(this.txtCodIngreSecundarioGalle); // Agrega el control al formulario
+            // 
+            // btnModificarGalleta
+            // 
+            this.btnModificarGalleta.Location = new System.Drawing.Point(150, 450); // Ajusta la posición según tu diseño
+            this.btnModificarGalleta.Name = "btnModificarGalleta";
+            this.btnModificarGalleta.Size = new System.Drawing.Size(100, 30); // Ajusta el tamaño según tu diseño
+            this.btnModificarGalleta.TabIndex = 3;
+            this.btnModificarGalleta.Text = "Modificar";
+            this.btnModificarGalleta.UseVisualStyleBackColor = true;
+            this.btnModificarGalleta.Click += new System.EventHandler(this.btnModificarGalleta_Click);
+            this.Controls.Add(this.btnModificarGalleta); // Agrega el control al formulario
+            // 
+            // btnEliminarGalleta
+            // 
+            this.btnEliminarGalleta.Location = new System.Drawing.Point(150, 500); // Ajusta la posición según tu diseño
+            this.btnEliminarGalleta.Name = "btnEliminarGalleta";
+            this.btnEliminarGalleta.Size = new System.Drawing.Size(100, 30); // Ajusta el tamaño según tu diseño
+            this.btnEliminarGalleta.TabIndex = 4;
+            this.btnEliminarGalleta.Text = "Eliminar";
+            this.btnEliminarGalleta.UseVisualStyleBackColor = true;
+            this.btnEliminarGalleta.Click += new System.EventHandler(this.btnEliminarGalleta_Click);
+            this.Controls.Add(this.btnEliminarGalleta); // Agrega el control al formulario
+            this.ResumeLayout(false);
+        }
         public StockGalletas() : this(null, null) { }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -108,7 +218,7 @@ namespace Control_stock_galletas.Ventanas
 
         private void btnBuscarGalleta_Click(object sender, EventArgs e)
         {
-            string criterio = cmbCriterioBusquedaGalleta.SelectedItem?.ToString();
+            string? criterio = cmbCriterioBusquedaGalleta.SelectedItem?.ToString();
             string valor = txtValorBusquedaGalleta.Text.Trim();
 
             if (string.IsNullOrEmpty(criterio) || string.IsNullOrWhiteSpace(valor))
@@ -179,7 +289,7 @@ namespace Control_stock_galletas.Ventanas
 
         private void LimpiarCamposEdicionGalleta()
         {
-            _galletaSeleccionada = null;
+            _galletaSeleccionada = null; 
             txtCodGalle.Clear();
             txtNombreGalle.Clear();
             txtPersonajeGalle.Clear();

@@ -17,8 +17,8 @@ namespace Control_stock_galletas.Entidades
 
         // FKs a la tabla Ingrediente (Cod_Ingre es PK de Ingrediente)
         // Representan ingredientes destacados. 
-        public int Cod_Ingre_Principal { get; set; }
-        public int Segundo_Ingrediente { get; set; }
+        public int? Cod_Ingre_Principal { get; set; }
+        public int? Segundo_Ingrediente { get; set; }
 
         public Galleta()
         {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Control_stock_galletas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b40c2dc85df02636924fb137225fb79a7dc939b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebd7104bb2d25d0c6c59c771952fe7e5b39e838b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Control_stock_galletas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Control_stock_galletas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
